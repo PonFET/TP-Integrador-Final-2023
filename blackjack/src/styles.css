@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: -1;
+    color: #fff;
+}
+
+#app-root {
+    border: 2px solid rgb(214, 211, 23);
+    padding: 20px;
+}
